@@ -1,0 +1,66 @@
+
+.navbar{
+    background-color: blue;
+}
+#cabecalho .nav .nav-link.active{
+    background-color: aliceblue;
+    color: blue;
+}
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover
+{
+    color: cornsilk;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header h1,
+.info{
+    font-size: 20px;
+    font-family: 'Bungee', cursive;
+}
+
+.navbar-toggler{
+    background-color: rgb(201, 201, 237);
+}
+.section-title {
+    font-family:'Bungee', cursive ;
+    color: blue;
+}
+#sobre-a-infogames,
+#jogos{
+    background-color: rgb(136, 136, 243);
+}
+.logo{
+    text-decoration: none;
+}
+.nav-categorias .nav-link.active ,
+.col-md-3 button{
+    background-color: blue;
+}
+.nav-categorias .nav-link ,
+h5 , .text-colored{
+    color: blue;
+}
+   
+.social-links li {
+    
+    color: blue;
+    list-style: none;
+    display: inline;
+}
+.social-links a{
+    text-decoration: none;
+    color: blue;
+}
+.fale-conosco button{
+    background-color: blue;
+    color: aliceblue;
+    margin-top: 6px;
+}
+@media (max-width:767px){
+    .carousel-item img{
+        height: 200px;
+    }
+}

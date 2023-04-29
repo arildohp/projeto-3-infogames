@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>INFOgames-shop</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+       <div class="container">
+         <h1 class="navbar-brand m-0  "> <span class="h1">INFOgames</span></h1>
+         <button  class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegaçao"> 
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <nav class="navbar-collapse collapse justify-content-end" id="menu-navegaçao">
+            <ul class="nav nav-pills d-block d-md-flex">
+                <li class="nav-item fw-bold">
+                    <a  class="nav-link" href="#sobre-a-infogames">
+                        <i class="bi bi-house-door me-1"></i>
+                        Sobre a  <span class="info">INFOgames</span>
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a class="nav-link" href="#consoles">
+                        <i class="bi bi-joystick me-1"></i>
+                        Consoles
+                    </a>
+                </li>
+                <li class="nav-item fw-bold ">
+                    <a class="nav-link" href="#jogos">
+                        <i class="bi bi-controller me-1"></i>
+                        Jogos
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                   <a class="nav-link" href="#fale-conosco">
+                    <i class="bi bi-chat-left-text me-1"></i>
+                    Fale conosco</a> 
+                </li>
+            </ul>
+         </nav>
+       </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-a-infogames">
+        <div class="carousel slide " data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active d-md-flex " data-bs-interval="2000">
+                    <img src="./img/slide4.jpeg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./img/slide5.jpeg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./img/slide6.jpeg " class="d-block w-100" alt="">
+                </div>   
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button> 
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>         
+            </div>
+        </div>
+        <div class=" pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 ">
+                        <img src="./img/infogames.jpg" class="d-block w-100 rounded" alt=" loja infogames">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre a INFOgames</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae vero harum, architecto incidunt repellendus blanditiis ipsam dignissimos earum accusamus veritatis ea non similique placeat alias tempore eius hic perferendis nemo?
+                            </p> 
+                        <h3 class="section-title">seu game favorito</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, ducimus architecto nam debitis odit perferendis numquam quaerat nesciunt dolorem, asperiores ab libero id nobis pariatur rerum magni odio explicabo doloribus.
+                            </p>                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="consoles" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center ">Todos os Consoles</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img  class="d-block w-100 rounded" src="./img/nintendo.png" alt="">
+                        <h3 class="section-title">
+                            <i class="bi bi-nintendo-switch"></i>
+                            Nintendo
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore magni cum voluptatem odit ratione delectus corrupti deleniti repudiandae?</p>
+                        <button type="button" class="btn btn-primary">Saiba mais</button>
+                    </div>
+                    <div class="col-md-3 pt-5 pb-5">
+                        <img  class="d-block w-100 rounded" src="./img/xbox.png" alt="">
+                        <h3 class="section-title">
+                            <i class="bi bi-xbox"></i>
+                            Xbox
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore magni cum voluptatem odit ratione delectus corrupti deleniti repudiandae?</p>
+                        <button type="button" class="btn btn-primary ">Saiba mais</button>
+                    </div>
+                    <div class="col-md-3">
+                        <img  class="d-block w-100 rounded" src="./img/ps5.png" alt="">
+                        <h3 class="section-title">
+                            <i class="bi bi-playstation"></i>
+                            Playstation
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore magni cum voluptatem odit ratione delectus corrupti deleniti repudiandae?</p>
+                        <button type="button" class="btn btn-primary">Saiba mais</button>
+                    </div>
+                    <div class="col-md-3">
+                        <img  class="d-block w-100
+                        " rounded src="./img/pc.png" alt="">
+                         <h3 class="section-title">
+                            <i class="bi bi-pc-display"></i>
+                            Pc/Desktop
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore magni cum voluptatem odit ratione delectus corrupti deleniti repudiandae?</p>
+                        <button type="button" class="btn btn-primary button">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section id="jogos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Jogos</h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                  <nav class="nav nav-pills flex-column nav-categorias">
+                    <button  type="button" data-bs-toggle="tab"
+                    data-bs-target="#acao" class=" fw-bold test-start nav-link active button"> Ação
+                    </button>
+                    <button  type="button" data-bs-toggle="tab"
+                    data-bs-target="#aventura" class="fw-bold test-start nav-link button"> Aventura
+                    </button>
+                    <button  type="button" data-bs-toggle="tab"
+                    data-bs-target="#esporte"class="fw-bold test-start nav-link button"> Esporte
+                    </button>
+                    <button  type="button" data-bs-toggle="tab"
+                    data-bs-target="#corrida" class=" fw-bold test-start nav-link button"> Corrida
+                    </button>
+                  </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="acao">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./jogos/rs4.jpg" alt="">
+                                    <h5 class="fw-bold mt-2">Resident Evil 4 Remaker</h5>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos sunt aliquid ratione distinctio dolorum doloribus impedit, ipsa itaque velit, magni quae perspiciatis. </p>
+                                    <button type="button" class="btn btn-primary button mb-4"><i class="bi bi-cart3 p-5 "></i></button>
+                                </div> 
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./jogos/gr.png" alt="">
+                                    <h5 class="fw-bold mt-2">Tom Clancy Ghost Tecon</h5>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos sunt aliquid ratione distinctio dolorum doloribus impedit, ipsa itaque velit, magni quae perspiciatis. </p>
+                                    <button type="button" class="btn btn-primary button button mb-4"><i class="bi bi-cart3 p-5 "></i></button>
+                                </div>   
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./jogos/gta.jpg" alt="">
+                                    <h5 class="fw-bold mt-2">GTA 5</h5>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos sunt aliquid ratione distinctio dolorum doloribus impedit, ipsa itaque velit, magni quae perspiciatis. </p>
+                                    <button type="button" class="btn btn-primary button button mb-4"><i class="bi bi-cart3 p-5 "></i></button>
+                                </div>   
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 " src="./jogos/ass.jpg" alt="">
+                                    <h5 class="fw-bold mt-2">Assassins Creed</h5>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos sunt aliquid ratione distinctio dolorum doloribus impedit, ipsa itaque velit, magni quae perspiciatis. </p>
+                                    <button type="button" class="btn btn-primary button "><i class="bi bi-cart3 p-5 "></i></button>
+                                </div>     
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="aventura">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./jogos/rdr2.jpg" alt="">
+                                    <h5 class="fw-bold mt-2">Red Dead Redeption 2</h5>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos sunt aliquid ratione distinctio dolorum doloribus impedit, ipsa itaque velit, magni quae perspiciatis. </p>
+                                    <button type="button" class="btn btn-primary button button mb-4"><i class="bi bi-cart3 p-5 "></i></button>
+                                </div> 
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./jogos/fc6.png" alt="">
+                                    <h5 class="fw-bold mt-2">Farcry 6</h5>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos sunt aliquid ratione distinctio dolorum doloribus impedit, ipsa itaque velit, magni quae perspiciatis. </p>
+                                    <button type="button" class="btn btn-primary button button mb-4"><i class="bi bi-cart3 p-5 "></i></button>
+                                </div>   
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./jogos/tb.jpg" alt="">
+                                    <h5 class="fw-bold mt-2">Tomb Raider</h5>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos sunt aliquid ratione distinctio dolorum doloribus impedit, ipsa itaque velit, magni quae perspiciatis. </p>
+                                    <button type="button" class="btn btn-primary button button mb-4"><i class="bi bi-cart3 p-5 "></i></button>
+                                </div>   
+                                <div class="col-md-3">
+                                    <img class="d-block w-100 " src="./jogos/mf2.jpg" alt="">
+                                    <h5 class="fw-bold mt-2">Mafia 2</h5>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos sunt aliquid ratione distinctio dolorum doloribus impedit, ipsa itaque velit, magni quae perspiciatis. </p>
+                                    <button type="button" class="btn btn-primary button button mb-4"><i class="bi bi-cart3 p-5 "></i></button>
+                                </div>     
+                            </div>
+                       
+                    </div>
+                    <div class="tab-pane" id="esporte">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="./jogos/fff.jpg" alt="">
+                                <h5 class="fw-bold mt-2">Fifa 2023</h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos sunt aliquid ratione distinctio dolorum doloribus impedit, ipsa itaque velit, magni quae perspiciatis. </p>
+                                <button type="button" class="btn btn-primary buttonbutton mb-4 "><i class="bi bi-cart3 p-5 "></i></button>
+                            </div> 
+                            
+                                 
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="corrida">
+                        <div class="row">
+                             <div class="col-md-3">
+                                <img class="d-block w-100" src="./jogos/f1.jpg" alt="">
+                                <h5 class="fw-bold mt-2">F1 2023</h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos sunt aliquid ratione distinctio dolorum doloribus impedit, ipsa itaque velit, magni quae perspiciatis. </p>
+                                <button type="button" class="btn btn-primary button button mb-4"><i class="bi bi-cart3 p-5 "></i></button>
+                            </div>   
+                            <div class="col-md-3">
+                                <img class="d-block w-100" src="./jogos/gt.jpg" alt="">
+                                <h5 class="fw-bold mt-2">Gran Turismo</h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos sunt aliquid ratione distinctio dolorum doloribus impedit, ipsa itaque velit, magni quae perspiciatis. </p>
+                                <button type="button" class="btn btn-primary button button "><i class="bi bi-cart3 p-5 "></i></button>
+                            </div>      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fale-conosco pt-5 pb5" id="fale-conosco">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale conosco</h2>
+            </div>
+            <div class="row">
+               <div class="col-md-7 mb-5">
+                  <form >
+                    <div class="mb-3">
+                       <label for="nome" class="form-label fw-bold text-colored ">Seu nome</label>
+                       <input type="text" id="nome"  class="form-control">
+                    </div>
+                    <div class="mb-3" >
+                        <label for="email" class="form-label fw-bold text-colored" >E-mail</label>
+                        <input type="email" id="email" placeholder="exemplo@exemplo.com" class="form-control">
+                     </div>
+                     <div class="mb-3">
+                        <label for="telefone" id
+                        telefone class="form-label fw-bold text-colored">Seu telefone</label>
+                        <input type="tel" id="telefone"  class="form-control" >
+                     </div>
+                     <div class="mb-3">
+                        <label for="mensagem" class="form-label text-colored fw-bold">Sua mensagem</label>
+                        <textarea 
+                        id="mensagem" class="form-control" > </textarea>
+                        <button  type="submit" class="btn btn-primary">Enviar</button>
+                     </div>
+                </form>                
+            </div>
+            <div class="col-md-5">
+               <div class="row">
+                   <h3 class="section-title fs-4">
+                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                    Redes Sociais</h3>
+                   <ul class="social-links">
+                       <li>
+                           <a href="#">
+                              <i class="bi bi-facebook fs-5"></i>
+                           </a>
+                           <a href="#">
+                            <i class="bi bi-instagram  fs-5 ms-1 me-1"></i>
+                         </a>
+                         <a href="#">
+                            <i class="bi bi-whatsapp fs-5"></i>
+                         </a>
+                       </li>
+                   </ul>
+               </div>
+               <div class="row mt-4">
+                   <h3 class="section-title fs-4">
+                    <i class="bi bi-cursor-fill"></i>
+                    Endereço</h3>
+                   <p>
+                      Rua Luiz Antonio Figueiredo 45, Avenida 9 de julho - São Paulo - SP
+                   </p>
+               </div>
+            </div>  
+        </div>
+      </div>
+    </section>
+    </div>   
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script> 
+
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+      <script src="./js/jquery.mask.min.js"></script>
+      <script>
+        $(document).ready(function(){
+            $('#telefone').mask('(00)00000-0000',{
+        placeholder: '(00)00000-0000'
+        });
+            
+        })
+        
+        
+      </script>
+</body>
+</html>
